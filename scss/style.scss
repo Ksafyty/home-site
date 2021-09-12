@@ -10,13 +10,9 @@ h1, h3, h4 {
   font-family: $text-font;
 }
 
-h3, h4 {
+h3, h4, span {
   font-weight: bold;
   text-align: center;
-}
-
-span {
-  font-weight: bold;
 }
 
 h3 {
@@ -47,7 +43,7 @@ li a {
   font-weight: bold;
 }
 
-aside {
+aside, main, section  {
   display: flex;
 }
 
@@ -66,17 +62,12 @@ hr {
   width: 940px;
 }
 
-main {
-  display: flex;
-}
-
 .Sample_for > div {
   padding: 5px;
   margin: 5px;
 }
 
 section {
-  display: flex;
   background-color: burlywood;
   height: 120px;
 }
